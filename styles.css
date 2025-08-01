@@ -1,6 +1,5 @@
 body {
-    background-color: darkseagreen;
-    background-image: url(paper.jpg);
+    background-image: url(paper.png);
     background-blend-mode: multiply;
     color: antiquewhite;
     font-family: Roboto;
@@ -41,14 +40,13 @@ img {
 }
 
 .topbar {
-    background-color: seagreen;
     height: 75px;
     position: relative;
     padding: 0;
     margin: 0;
     text-align: left;
     background-blend-mode: multiply;
-    background-image: url(paper2.jpg);
+    background-image: url(paper2.png);
     box-shadow: 0px 3px 10px 2px rgb(26, 78, 49);
 }
 

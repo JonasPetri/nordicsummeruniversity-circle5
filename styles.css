@@ -1,16 +1,17 @@
 body {
+    background-color: darkseagreen;
     background-image: url(paper.png);
-    background-blend-mode: multiply;
     color: antiquewhite;
-    font-family: Roboto;
+    font-family: "clone-rounded-latin", sans-serif;
+    ;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 .title {
-    font-weight: 1000;
-    padding-top: 17.5px;
+    font-weight: 700;
+    padding-top: 12.5px;
 }
 
 .link {
@@ -40,12 +41,12 @@ img {
 }
 
 .topbar {
+    background-color: seagreen;
     height: 75px;
     position: relative;
     padding: 0;
     margin: 0;
     text-align: left;
-    background-blend-mode: multiply;
     background-image: url(paper2.png);
     box-shadow: 0px 3px 10px 2px rgb(26, 78, 49);
 }
@@ -58,7 +59,7 @@ a {
 }
 
 a:hover {
-    color: rgb(197, 185, 171);
+    opacity: 50%;
     transition: 0.3s;
 }
 
@@ -66,4 +67,18 @@ a:hover {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    padding: 30px;
+}
+
+.portrait {
+    height: 200px;
+    width: auto;
 }
